@@ -1,0 +1,161 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 16px;
+  }
+  body{
+    color: rgb(248, 246, 243);
+    background-color: rgb(48, 47, 47);
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 0 2rem;
+}
+.menuIcon{
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4px;
+  
+}
+.sd{
+    height: 1px;
+    width: 10px;
+
+    background-color: rgb(128, 126, 126);
+   
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    color: white;
+padding: 2px;
+}
+
+li:hover{
+    color: rgb(128, 126, 126);
+border-bottom: 2px solid gray;
+   padding-bottom: 0;
+}
+
+.searchDiv{
+    height: 3rem;
+    width: 80%;
+    border: 2px solid rgb(143, 140, 140);
+    align-items: center;
+    text-align: center;
+border-radius: 25px;
+margin-left: 4rem;
+display: flex;
+
+}
+.circleDiv{
+height: 1rem;
+width: 1rem;
+border: 2px solid rgb(71, 70, 70);
+border-radius: 50%;
+margin-left: 1rem;
+}
+
+.j{
+   margin-top: -px;
+}
+.gAccDiv{
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.t{
+    margin-left: 3rem;
+}
+.fInput{
+height:2rem;
+width: 15rem;
+border: 1px solid white;
+display: flex;
+align-items: center;
+justify-content: end;
+padding: 0 2px 0 0;
+}
+
+.c{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.f{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#butt{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2rem;
+}
+
+.di{
+    height: 2rem;
+    width: 95%;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px ;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+ 
+input{
+    height: 2rem;
+    width: 15rem;
+text-align: end;
+}
+
+label{
+height: 2rem;
+width: 15rem;
+display: flex;
+align-items: center;
+border: 1px solid gray;
+padding: 0 0 0 4px;
+}
+
+.ld{
+    display: flex;
+    align-items: center;
+}
+h4{
+height: 1.2rem;
+width: 4rem;
+background-color: yellow;
+text-align: center;
+color: black;
+font-weight: 300;
+margin-right: 6rem;
+}
